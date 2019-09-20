@@ -19,6 +19,7 @@ html, body{
     height: 80vh;
     overflow: auto;
 }
+
 #map { 
 	width: 60%; 
     height: 80vh;
@@ -27,4 +28,8 @@ html, body{
 
 .carte ul, li{
     list-style: none;
+}
+
+.card-body button{
+    margin-top: 15px;
 }
