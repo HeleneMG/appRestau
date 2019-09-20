@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.css" />
+        <script src="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.js"></script>
+        <title>RestauSeeker</title>
+    </head>
+
+    <body>
+        <div class="formulaire">
+            <h1>The amazing restaurant seeker</h1>
+            <form action="">
+                <input type="text" id="userInput" autofocus>
+                <button type="submit" id="userSend">Recherche</button>
+            </form>
+        </div>
+        <div class="boite">
+            <ul id="liste"></ul>
+            <div id="map"></div>
+        </div>
+        <script src="main.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBdqjVBfLcxkscFUSLOqJTQ8qeXGKwD_g&callback=initMap" async defer></script>
+    </body>
+
+</html>
